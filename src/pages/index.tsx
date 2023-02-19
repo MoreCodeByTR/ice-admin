@@ -1,13 +1,14 @@
 import { useState } from 'react';
 import logo from '@/assets/logo.png';
 import styles from './index.module.css';
+import { history } from 'ice';
 
 export default function Home() {
   const [count, setCount] = useState(1);
 
   const updateCount = () => {
     setCount((c) => c + 1);
-    console.log('button click');
+    history?.push('/ice-admin/404/');
   };
   return (
     <div className={styles.app}>

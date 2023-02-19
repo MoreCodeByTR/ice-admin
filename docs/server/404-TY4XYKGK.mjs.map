@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["style-handler-namespace:/Users/morecode/Desktop/projects/ice-app/src/pages/404/index.module.css", "../../src/pages/404/index.tsx"],
-  "sourcesContent": ["module.exports = {\n  \"app\": \"app--Y5vYJq1p\",\n  \"link\": \"link--MEs1g5k_\",\n  \"button\": \"button--csZaJViM\"\n};", "import { jsxDEV as _jsxDEV } from \"@ice/runtime/jsx-dev-runtime\";\nimport { useState } from \"react\";\nimport styles from \"./index.module.css\";\nexport default function Home() {\n  const [count, setCount] = useState(1);\n  const updateCount = () => setCount((c) => c + 1);\n  return /* @__PURE__ */ _jsxDEV(\"div\", {\n    className: styles.app,\n    children: \"404 \\u9875\\u9762\"\n  }, void 0, false, {\n    fileName: \"/Users/morecode/Desktop/projects/ice-app/src/pages/404/index.tsx\",\n    lineNumber: 9,\n    columnNumber: 10\n  }, this);\n}\n"],
-  "mappings": ";;;;;;;AAAA;AAAA;AAAA,WAAO,UAAU;AAAA,MACf,OAAO;AAAA,MACP,QAAQ;AAAA,MACR,UAAU;AAAA,IACZ;AAAA;AAAA;;;ACFA,0BAAmB;AAFnB,SAAS,UAAU,eAAe;AAClC,SAAS,gBAAgB;AAEV,SAAR,OAAwB;AAC7B,QAAM,CAAC,OAAO,QAAQ,IAAI,SAAS,CAAC;AACpC,QAAM,cAAc,MAAM,SAAS,CAAC,MAAM,IAAI,CAAC;AAC/C,SAAuB,wBAAQ,OAAO;AAAA,IACpC,WAAW,oBAAAA,QAAO;AAAA,IAClB,UAAU;AAAA,EACZ,GAAG,QAAQ,OAAO;AAAA,IAChB,UAAU;AAAA,IACV,YAAY;AAAA,IACZ,cAAc;AAAA,EAChB,GAAG,IAAI;AACT;",
-  "names": ["styles"]
-}
