@@ -9,6 +9,10 @@
     ]
   },
   "pages": {
+    "404-index": [
+      "css/p_404-index.css",
+      "js/p_404-index.js"
+    ],
     "index": [
       "css/p_index.css",
       "js/p_index.js"
