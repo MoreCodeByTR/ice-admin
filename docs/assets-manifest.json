@@ -18,5 +18,7 @@
       "js/p_index.js"
     ]
   },
-  "assets": {}
+  "assets": {
+    "src/assets/logo.jpeg": "b9b4fb0e"
+  }
 }
