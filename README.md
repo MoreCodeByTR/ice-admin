@@ -39,3 +39,15 @@ ice3.0 开发文档 [docs](https://v3.ice.work/).
 ```
 publicPath: '/ice-admin/',
 ```
+
+## 路由配置
+
+由于不是配置在域名根目录下，注意配置路由前缀名，使用 history 进行路由跳转时也要配置前缀
+
+```
+export default defineAppConfig(() => ({
+  router: {
+    basename: '/ice-admin/',
+  },
+}));
+```

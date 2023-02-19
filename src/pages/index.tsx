@@ -8,8 +8,12 @@ export default function Home() {
 
   const updateCount = () => {
     setCount((c) => c + 1);
+  };
+
+  const jumpToAnotherPage = () => {
     history?.push('/ice-admin/404/');
   };
+
   return (
     <div className={styles.app}>
       <header>
@@ -22,12 +26,11 @@ export default function Home() {
         </button>
         <p>
           <a
-            href="https://reactjs.org"
-            target="_blank"
+            onClick={jumpToAnotherPage}
             rel="noopener noreferrer"
             className={styles.link}
           >
-            Learn React
+            页面跳转
           </a>
           {' | '}
           <a
