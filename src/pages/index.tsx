@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logo from '@/assets/logo.png';
+import logo from '@/assets/logo.jpeg';
 import styles from './index.module.css';
 import { history } from 'ice';
 
