@@ -5,7 +5,10 @@ import styles from './index.module.css';
 export default function Home() {
   const [count, setCount] = useState(1);
 
-  const updateCount = () => setCount((c) => c + 1);
+  const updateCount = () => {
+    setCount((c) => c + 1);
+    console.log('button click');
+  };
   return (
     <div className={styles.app}>
       <header>
