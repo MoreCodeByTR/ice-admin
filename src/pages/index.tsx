@@ -39,7 +39,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className={styles.link}
           >
-            Learn ice.js
+            学习 ice.js
           </a>
         </p>
       </main>
