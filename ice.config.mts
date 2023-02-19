@@ -5,6 +5,6 @@ const minify = process.env.NODE_ENV === 'production' ? 'swc' : false;
 export default defineConfig(() => ({
   // Set your configs here.
   outputDir: 'docs',
-  publicPath: 'ice-admin/',
+  publicPath: '/ice-admin/',
   minify,
 }));
