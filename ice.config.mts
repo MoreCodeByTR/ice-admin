@@ -4,8 +4,6 @@ import { defineConfig } from '@ice/app';
 const minify = process.env.NODE_ENV === 'production' ? 'swc' : false;
 export default defineConfig(() => ({
   // Set your configs here.
-
-
-
+  outputDir: 'docs',
   minify,
 }));
