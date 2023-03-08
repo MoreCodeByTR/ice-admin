@@ -14,6 +14,10 @@ export default function Home() {
     history?.push('/ice-admin/404/');
   };
 
+  const jumpToBlog = () => {
+    history?.push('/ice-admin/blog/');
+  };
+
   return (
     <div className={styles.app}>
       <header>
@@ -31,6 +35,13 @@ export default function Home() {
             className={styles.link}
           >
             页面跳转
+          </a>
+          <a
+            onClick={jumpToBlog}
+            rel="noopener noreferrer"
+            className={styles.link}
+          >
+            blog
           </a>
           {' | '}
           <a

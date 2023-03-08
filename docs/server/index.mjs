@@ -181,7 +181,7 @@ var routes_default = [
     path: "",
     load: () => import(
       /* webpackChunkName: "p_index" */
-      "./pages-P7PIC63V.mjs"
+      "./pages-PNHUWTW7.mjs"
     ),
     componentName: "index",
     index: true,
