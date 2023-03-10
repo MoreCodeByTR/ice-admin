@@ -9,7 +9,7 @@ export default defineAppConfig(() => ({
   },
 }));
 
-export const authConfig = defineAuthConfig((data) => {
+export const authConfig = defineAuthConfig(() => {
   // fetch auth data
   return {
     initialAuth: {
