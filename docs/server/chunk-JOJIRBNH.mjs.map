@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../.ice/index.ts"],
-  "sourcesContent": ["import \"@/global.css\";\nimport { Link, Outlet, useParams, useSearchParams, useLocation, useNavigate } from \"@ice/runtime/router\";\nimport { defineAppConfig, useAppData, useData, useConfig, Meta, Title, Links, Scripts, Data, Main, history, KeepAliveOutlet, useMounted, ClientOnly, withSuspense, useSuspenseData, defineDataLoader, defineServerDataLoader, defineStaticDataLoader } from \"@ice/runtime\";\nimport __ice__cjsImport3__ice_pluginAuth_runtime from \"../../node_modules/.cache/deps/@ice_plugin-auth_runtime.js\"; const withAuth = __ice__cjsImport3__ice_pluginAuth_runtime[\"withAuth\"]; const useAuth = __ice__cjsImport3__ice_pluginAuth_runtime[\"useAuth\"];\nfunction definePageConfig(pageConfig) {\n  return pageConfig;\n}\nexport { definePageConfig, Link, Outlet, useParams, useSearchParams, useLocation, useNavigate, defineAppConfig, useAppData, useData, useConfig, Meta, Title, Links, Scripts, Data, Main, history, KeepAliveOutlet, useMounted, ClientOnly, withSuspense, useSuspenseData, defineDataLoader, defineServerDataLoader, defineStaticDataLoader, withAuth, useAuth };\nexport * from \"./types\";\n"],
-  "mappings": ";;;AACA,SAAS,MAAM,QAAQ,WAAW,iBAAiB,aAAa,mBAAmB;AACnF,SAAS,iBAAiB,YAAY,SAAS,WAAW,MAAM,OAAO,OAAO,SAAS,MAAM,MAAM,SAAS,iBAAiB,YAAY,YAAY,cAAc,iBAAiB,kBAAkB,wBAAwB,8BAA8B;AAC5P,OAAO,+CAA+C;AAA8D,IAAM,WAAW,0CAA0C,UAAU;AAAG,IAAM,UAAU,0CAA0C,SAAS;AAC/P,SAAS,iBAAiB,YAAY;AACpC,SAAO;AACT;",
-  "names": []
-}

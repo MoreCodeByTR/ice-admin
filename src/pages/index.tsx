@@ -1,59 +1,27 @@
-import { useState } from 'react';
-import logo from '@/assets/logo.jpeg';
-import styles from './index.module.css';
-import { history } from 'ice';
+import { useEffect } from 'react';
+import HomePage from '@/components/HomePage';
+
 
 export default function Home() {
-  const [count, setCount] = useState(1);
+  useEffect(() => {
+    window.addEventListener('error', (e: Event) => {
+      // 监听页面错误，js 错误提醒刷新页面
+      const { target } = e;
+      if (!(target instanceof HTMLElement)) return;
+      if (target) {
+        const { nodeName } = target;
+        if (nodeName === 'SCRIPT') {
+          let r = confirm('文件加载错误，请刷新页面');
+          if (r == true) {
+            location.reload();
+          }
+        }
+      }
+    }, true);
+  }, []);
 
-  const updateCount = () => {
-    setCount((c) => c + 1);
-  };
-
-  const jumpToAnotherPage = () => {
-    history?.push('/ice-admin/404/');
-  };
-
-  const jumpToBlog = () => {
-    history?.push('/ice-admin/blog/');
-  };
 
   return (
-    <div className={styles.app}>
-      <header>
-        <img src={logo} alt="logo" />
-        <p>Hello ice.js 3</p>
-      </header>
-      <main>
-        <button className={styles.button} type="button" onClick={updateCount}>
-          👍🏻 {count}
-        </button>
-        <p>
-          <a
-            onClick={jumpToAnotherPage}
-            rel="noopener noreferrer"
-            className={styles.link}
-          >
-            页面跳转
-          </a>
-          <a
-            onClick={jumpToBlog}
-            rel="noopener noreferrer"
-            className={styles.link}
-          >
-            blog
-          </a>
-          {' | '}
-          <a
-            href="https://v3.ice.work/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.link}
-          >
-            学习 ice.js
-          </a>
-        </p>
-      </main>
-    </div>
+    <HomePage />
   );
 }

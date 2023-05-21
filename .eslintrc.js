@@ -13,5 +13,6 @@ module.exports = getESLintConfig('react-ts', {
     'no-tabs': 'off',
     'comma-dangle': 'off',
     'id-length': 'off',
+    semi: 'error',
   },
 });

@@ -14,6 +14,7 @@
     "importHelpers": true,
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
+    "ignoreDeprecations": "5.0",
     "skipLibCheck": true,
     "paths": {
       "@/*": ["./src/*"],
