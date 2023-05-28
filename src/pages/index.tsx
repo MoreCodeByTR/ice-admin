@@ -9,13 +9,14 @@ export default function Home() {
       const { target } = e;
       if (!(target instanceof HTMLElement)) return;
       if (target) {
-        const { nodeName } = target;
-        if (nodeName === 'SCRIPT') {
-          let r = confirm('文件加载错误，请刷新页面');
-          if (r == true) {
-            location.reload();
-          }
-        }
+        console.log(e, JSON.stringify(e));
+        // const { nodeName } = target;
+        // if (nodeName === 'SCRIPT') {
+        //   let r = confirm('文件加载错误，请刷新页面');
+        //   if (r == true) {
+        //     location.reload();
+        //   }
+        // }
       }
     }, true);
   }, []);

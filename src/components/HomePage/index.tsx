@@ -14,7 +14,7 @@ export default function HomePage() {
   const loadScript = () => {
     const script = document.createElement('script');
     script.type = 'text/javascript';
-    script.src = 'https://avatars.githubusercontent2.com/u/51108500?s=40&v=4';
+    script.src = 'https://passport.feishu.cn/accounts/auth_login/qr/polling?_r84813=1684659748107';
     document.head.appendChild(script);
   };
 
