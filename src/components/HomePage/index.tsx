@@ -24,11 +24,15 @@ export default function HomePage() {
   };
 
   const jumpToAnotherPage = () => {
-    history?.push('/ice-admin/404/');
+    history?.push('/404');
   };
 
   const jumpToBlog = () => {
-    history?.push('/ice-admin/blog/');
+    history?.push('/blog');
+  };
+
+  const jumpToForm = () => {
+    history?.push('/formily');
   };
 
   return (
@@ -50,12 +54,21 @@ export default function HomePage() {
           >
             页面跳转
           </a>
+          {' | '}
           <a
             onClick={jumpToBlog}
             rel="noopener noreferrer"
             className={styles.link}
           >
             blog
+          </a>
+          {' | '}
+          <a
+            onClick={jumpToForm}
+            rel="noopener noreferrer"
+            className={styles.link}
+          >
+            动态表单
           </a>
           {' | '}
           <a
