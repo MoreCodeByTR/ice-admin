@@ -1,5 +1,6 @@
 import { defineAppConfig } from 'ice';
 import { defineAuthConfig } from '@ice/plugin-auth/types';
+// import 'antd/dist/antd.css';
 
 // App config, see https://v3.ice.work/docs/guide/basic/app
 export default defineAppConfig(() => ({

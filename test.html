@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copy Image to Clipboard in Safari</title>
+</head>
+<body>
+  <button id="copyButton">Copy Image</button>
+  <img id="sourceImage" src="https://avatars.githubusercontent.com/u/51108500?v=4" alt="Image">
+  
+  <script>
+    const copyButton = document.getElementById('copyButton');
+    const sourceImage = document.getElementById('sourceImage');
+
+    copyButton.addEventListener('click', ()=>{
+      navigator.clipboard.write([
+          new ClipboardItem({
+              "text/plain": ()=>{},
+          }),
+      ]);
+  });
+    
+
+
+  </script>
+</body>
+</html>

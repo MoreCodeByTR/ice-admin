@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../src/pages/effect/index.tsx"],
-  "sourcesContent": ["import { jsxDEV as _jsxDEV } from \"@ice/runtime/jsx-dev-runtime\";\nimport { useEffect } from \"react\";\nlet GlobalCount = 1;\nconst EffectDemo = () => {\n  useEffect(() => {\n  }, [\n    GlobalCount\n  ]);\n  return /* @__PURE__ */ _jsxDEV(\"div\", {\n    children: \"effect\"\n  }, void 0, false, {\n    fileName: \"/Users/morecode/Desktop/projects/ice-app/src/pages/effect/index.tsx\",\n    lineNumber: 7,\n    columnNumber: 10\n  }, void 0);\n};\nconst CountClick = () => {\n  const addCount = () => {\n    GlobalCount += 1;\n  };\n  return /* @__PURE__ */ _jsxDEV(\"div\", {\n    children: \"click\"\n  }, void 0, false, {\n    fileName: \"/Users/morecode/Desktop/projects/ice-app/src/pages/effect/index.tsx\",\n    lineNumber: 14,\n    columnNumber: 10\n  }, void 0);\n};\nexport default EffectDemo;\n"],
-  "mappings": ";;;;AAAA,SAAS,UAAU,eAAe;AAClC,SAAS,iBAAiB;AAC1B,IAAI,cAAc;AAClB,IAAM,aAAa,MAAM;AACvB,YAAU,MAAM;AAAA,EAChB,GAAG;AAAA,IACD;AAAA,EACF,CAAC;AACD,SAAuB,wBAAQ,OAAO;AAAA,IACpC,UAAU;AAAA,EACZ,GAAG,QAAQ,OAAO;AAAA,IAChB,UAAU;AAAA,IACV,YAAY;AAAA,IACZ,cAAc;AAAA,EAChB,GAAG,MAAM;AACX;AAaA,IAAO,iBAAQ;",
-  "names": []
-}

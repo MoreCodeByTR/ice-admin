@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../src/pages/effect/index.tsx"],
-  "sourcesContent": ["import { jsxDEV as _jsxDEV } from \"@ice/runtime/jsx-dev-runtime\";\nconst EffectDemo = () => {\n  return /* @__PURE__ */ _jsxDEV(\"div\", {\n    children: \"effect\"\n  }, void 0, false, {\n    fileName: \"/Users/morecode/Desktop/projects/ice-app/src/pages/effect/index.tsx\",\n    lineNumber: 2,\n    columnNumber: 10\n  }, this);\n};\n"],
-  "mappings": ";;;;;;AAAA,SAAS,UAAU,eAAe;AAAlC;AAAA;AAAA;AAAA;",
-  "names": []
-}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/pages/ref/index.tsx"],
+  "sourcesContent": ["import { Button } from 'antd';\nimport { useRef } from 'react';\n\nconsole.log(11111);\n\nconst RefDemo = () => {\n  const inputRef = useRef<any>(null);\n  return (<div>\n    <input\n      ref={inputRef}\n      onChange={() => {\n      console.log(inputRef.current.value);\n    }}\n    />\n    <Button onClick={() => {\n      console.time();\n      inputRef.current.focus();\n      console.timeEnd();\n    }}\n    >focus</Button>\n  </div>);\n};\n\nexport default RefDemo;"],
+  "mappings": ";;;;;AAAA,SAASA,cAAc;AACvB,SAASC,cAAc;AAEvBC,QAAQC,IAAI,KAAA;AAEZ,IAAMC,UAAU,MAAA;AACd,QAAMC,WAAWJ,OAAY,IAAA;AAC7B,SAAQ,wBAACK,OAAAA;;MACP,wBAACC,SAAAA;QACCC,KAAKH;QACLI,UAAU,MAAA;AACVP,kBAAQC,IAAIE,SAASK,QAAQC,KAAK;QACpC;;;;;;MAEA,wBAACX,QAAAA;QAAOY,SAAS,MAAA;AACfV,kBAAQW,KAAI;AACZR,mBAASK,QAAQI,MAAK;AACtBZ,kBAAQa,QAAO;QACjB;kBACC;;;;;;;;;;;;AAEL;AAEA,IAAA,cAAeX;",
+  "names": ["Button", "useRef", "console", "log", "RefDemo", "inputRef", "div", "input", "ref", "onChange", "current", "value", "onClick", "time", "focus", "timeEnd"]
+}

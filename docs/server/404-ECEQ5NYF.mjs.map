@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["style-handler-namespace:/Users/morecode/Desktop/projects/ice-app/src/pages/404/index.module.css", "../../src/pages/404/index.tsx"],
+  "sourcesContent": ["module.exports = {\n  \"app\": \"app--Y5vYJq1p\",\n  \"link\": \"link--MEs1g5k_\",\n  \"button\": \"button--csZaJViM\"\n};", "import styles from './index.module.css';\n\nexport default function Home() {\n  const handleClick = () => {\n    alert('404 Forbidden');\n  };\n  return (\n    <div className={styles.app} onClick={handleClick}>\n      404 页面\n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA,WAAO,UAAU;AAAA,MACf,OAAO;AAAA,MACP,QAAQ;AAAA,MACR,UAAU;AAAA,IACZ;AAAA;AAAA;;;ACJA,0BAAmB;;AAEJ,SAAf,OAAwBA;AACtB,QAAMC,cAAc,MAAA;AAClBC,UAAM,eAAA;EACR;AACA,SACE,wBAACC,OAAAA;IAAIC,WAAWC,oBAAAA,QAAOC;IAAKC,SAASN;cAAa;;;;;;AAItD;",
+  "names": ["Home", "handleClick", "alert", "div", "className", "styles", "app", "onClick"]
+}
