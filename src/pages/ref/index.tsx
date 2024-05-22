@@ -1,8 +1,6 @@
 import { Button } from 'antd';
 import { useRef } from 'react';
 
-console.log(11111);
-
 const RefDemo = () => {
   const inputRef = useRef<any>(null);
   return (<div>

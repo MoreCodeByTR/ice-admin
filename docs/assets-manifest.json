@@ -3,18 +3,47 @@
   "entries": {
     "main": [
       "js/framework.js",
-      "js/364.js",
+      "js/178.js",
       "css/main.css",
       "js/main.js"
     ]
   },
   "pages": {
-    "blog-index": [
-      "js/p_blog-index.js"
-    ],
     "404-index": [
       "css/p_404-index.css",
       "js/p_404-index.js"
+    ],
+    "formily-verifycode": [
+      "js/835.js",
+      "js/943.js",
+      "js/577.js",
+      "js/p_formily-verifycode.js"
+    ],
+    "formily-index": [
+      "js/835.js",
+      "js/943.js",
+      "js/577.js",
+      "js/227.js",
+      "js/811.js",
+      "js/p_formily-index.js"
+    ],
+    "effect-index": [
+      "js/835.js",
+      "js/943.js",
+      "js/227.js",
+      "js/616.js",
+      "js/p_effect-index.js"
+    ],
+    "three-index": [
+      "js/fb7d5399.js",
+      "js/p_three-index.js"
+    ],
+    "blog-index": [
+      "js/p_blog-index.js"
+    ],
+    "ref-index": [
+      "js/835.js",
+      "js/p_ref-index.js"
     ],
     "index": [
       "css/p_index.css",
